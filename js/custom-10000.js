@@ -9,8 +9,7 @@ $(document).ready(function () {
         h = 655;
     }
     //
-
-    var ar = [1,2,55,9,7,5]
+   var ar = [1,2,55,9,7,5]
     var arr = [51,9,7,6,36,2,5]
     var con = ar.concat(arr);
     var fil = con.filter(e => e % 2 == 0);
@@ -21,8 +20,6 @@ $(document).ready(function () {
         $('.loader').fadeOut();
         $('.loader-up').delay(350).fadeOut('slow');
     })
-
-
     $(".banner").height(h);
     $(".banner .item-video").height(h);
     $(window).scroll(function () {
@@ -241,8 +238,6 @@ $(document).ready(function () {
             },
         }
     })
-
-
     //
     $(".footer-menu-icon").click(function () {
         $(".footer .container").slideToggle();
